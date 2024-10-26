@@ -56,11 +56,8 @@ h1 a {
 }
 
 section {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    margin-left: 25%;
+    margin-bottom: 25%;
     gap: 20px;
 }
 
@@ -74,9 +71,15 @@ section article {
 
 section article h3 {
     font-weight: bold;
-    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
-section article p {
+section article ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 4px;
+}
+
+section article ul li a {
     color: black;
 }
